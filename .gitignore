@@ -1,0 +1,19 @@
+.DS_Store
+.project
+.ropeproject
+.idea
+
+# Python / Django
+pip-log.txt
+*.py[co]
+__pycache__
+.cache
+.pytest_cache
+*.so
+*.egg-info
+htmlcov/
+.coverage
+coverage.xml
+
+# DB
+db.sqlite3

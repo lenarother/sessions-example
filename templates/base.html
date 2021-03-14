@@ -1,0 +1,59 @@
+{% load i18n %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Example of using django sessions framework">
+    <meta name="author" content="Magdalena Rother">
+
+
+    <title>Django Sessions Example</title>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+
+    <style>
+
+      html, body, .container {
+          height: 100%;
+          font-family: "Montserrat", sans-serif;
+      }
+
+      .line-break {
+        width: 100%;
+      }
+
+      .container {
+          display: -webkit-flexbox;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          flex-flow: wrap;
+          -webkit-flex-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          justify-content: center;
+      }
+
+    </style>
+
+
+  </head>
+
+  <body>
+    <div class="container">
+
+    {% block content %}
+      {# Content goes here #}
+    {% endblock %}
+
+    </div>
+  </body>
+
+</html>
