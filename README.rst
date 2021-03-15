@@ -18,6 +18,10 @@ Try it out
 
     $ # Create your virtualenv and install requirements
 
+    $ # Apply initial migrations
+    $ cd sessions-example/src
+    $ python manage.py migrate
+
     $ # run tests
     $ cd sessions-example/src
     $ pytest
